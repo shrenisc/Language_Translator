@@ -7,6 +7,7 @@ import json
 
 app = Flask(__name__)
 
+
 # Load tokenizer
 with open('tokenizer_eng.json', 'r') as f:
     tokenizer_eng_json = json.load(f)
